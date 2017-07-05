@@ -77,7 +77,7 @@
     
     // 粒子生存时间
     emitterCell.lifetime = 5;
-    emitterCell.lifetimeRange = 2;
+//    emitterCell.lifetimeRange = 2;
     
     // 缩放大小
     emitterCell.scale = 0.7;
@@ -96,7 +96,7 @@
     emitterCell.spinRange = 0.3;
     
     // 粒子图片
-    emitterCell.contents = (__bridge id _Nullable)([UIImage imageNamed:@"xue"].CGImage);
+    emitterCell.contents = (__bridge id _Nullable)([UIImage imageNamed:@"flow"].CGImage);
     
     emitterLayer.emitterCells = @[emitterCell];
     

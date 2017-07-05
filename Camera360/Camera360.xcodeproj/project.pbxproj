@@ -59,6 +59,8 @@
 		6B6B26A71E70132200209D30 /* LDAdWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6B26A61E70132200209D30 /* LDAdWebViewController.m */; };
 		6B6B26AA1E70134300209D30 /* LDAdModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6B26A91E70134300209D30 /* LDAdModel.m */; };
 		6B6B26AD1E7013E800209D30 /* LDWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6B26AC1E7013E800209D30 /* LDWebViewProgressView.m */; };
+		6BAE3ABF1EF0D573000D93E1 /* Caculate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BAE3ABC1EF0D573000D93E1 /* Caculate.m */; };
+		6BAE3AC01EF0D573000D93E1 /* CaculateMake.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BAE3ABE1EF0D573000D93E1 /* CaculateMake.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -156,6 +158,10 @@
 		6B6B26A91E70134300209D30 /* LDAdModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDAdModel.m; sourceTree = "<group>"; };
 		6B6B26AB1E7013E800209D30 /* LDWebViewProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDWebViewProgressView.h; sourceTree = "<group>"; };
 		6B6B26AC1E7013E800209D30 /* LDWebViewProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDWebViewProgressView.m; sourceTree = "<group>"; };
+		6BAE3ABB1EF0D573000D93E1 /* Caculate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Caculate.h; sourceTree = "<group>"; };
+		6BAE3ABC1EF0D573000D93E1 /* Caculate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Caculate.m; sourceTree = "<group>"; };
+		6BAE3ABD1EF0D573000D93E1 /* CaculateMake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaculateMake.h; sourceTree = "<group>"; };
+		6BAE3ABE1EF0D573000D93E1 /* CaculateMake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaculateMake.m; sourceTree = "<group>"; };
 		9EB1A4D97C1D5C06AED320DD /* Pods-Camera360.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Camera360.release.xcconfig"; path = "Pods/Target Support Files/Pods-Camera360/Pods-Camera360.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -428,6 +434,10 @@
 		6B4F89881E6E499F00E39F08 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				6BAE3ABB1EF0D573000D93E1 /* Caculate.h */,
+				6BAE3ABC1EF0D573000D93E1 /* Caculate.m */,
+				6BAE3ABD1EF0D573000D93E1 /* CaculateMake.h */,
+				6BAE3ABE1EF0D573000D93E1 /* CaculateMake.m */,
 				6B6B26581E6FF91E00209D30 /* FDFullscreenPopGesture */,
 				6B6B265D1E6FF91E00209D30 /* TYSlidePageScrollView */,
 				6B4F89BD1E6E603000E39F08 /* Layout */,
@@ -753,6 +763,7 @@
 				6B6B26AA1E70134300209D30 /* LDAdModel.m in Sources */,
 				6B6B26A41E7012CA00209D30 /* LDLaunchViewManager.m in Sources */,
 				6B4F89BB1E6E4DEF00E39F08 /* UIView+Extension.m in Sources */,
+				6BAE3AC01EF0D573000D93E1 /* CaculateMake.m in Sources */,
 				6B4F89961E6E49CB00E39F08 /* LDNavigationController.m in Sources */,
 				6B4F89C81E6E77CE00E39F08 /* LDPlazaCell.m in Sources */,
 				6B6B26741E6FF96400209D30 /* LDTestCollectionViewController.m in Sources */,
@@ -764,6 +775,7 @@
 				6B4F89AB1E6E4A6200E39F08 /* LDPlazaController.m in Sources */,
 				6B4F899C1E6E49FE00E39F08 /* LDTabBarController.m in Sources */,
 				6B6B26A71E70132200209D30 /* LDAdWebViewController.m in Sources */,
+				6BAE3ABF1EF0D573000D93E1 /* Caculate.m in Sources */,
 				6B4F89CF1E6E7A4700E39F08 /* LDPlazaItemModel.m in Sources */,
 				6B4F89CC1E6E782300E39F08 /* LDIdentifierNames.m in Sources */,
 				6B4F89451E6E47C600E39F08 /* AppDelegate.m in Sources */,

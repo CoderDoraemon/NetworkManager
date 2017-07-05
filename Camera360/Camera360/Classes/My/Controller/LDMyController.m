@@ -7,6 +7,7 @@
 //
 
 #import "LDMyController.h"
+#import "Caculate.h"
 
 @interface LDMyController ()
 
@@ -20,6 +21,13 @@
     
     
     [self setup];
+    
+    
+    CGFloat result = [Caculate caculate:^(CaculateMake *make) {
+        make.add(10).add(200);
+    }];
+    
+    NSLog(@"result=====%f", result);
 }
 
 
