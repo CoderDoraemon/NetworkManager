@@ -22,6 +22,7 @@ class ViewController: UIViewController {
         
         GameApi
             .gameHomePage(1, .hot)
+            .request().map(GameInfo.self)
             .onCache([GameInfo].self, atKeyPath: "result", { (list) in
                 print("list=======\(list.count)")
             })

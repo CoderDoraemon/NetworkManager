@@ -13,5 +13,6 @@ target 'NetworkManager' do
   pod 'NSObject+Rx'
   pod 'Cache'
   pod 'HandyJSON'
+  pod 'SwiftyJSON'
   
 end
