@@ -12,6 +12,26 @@
 		187CE56422C4C0490034D5E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187CE56222C4C0490034D5E5 /* Main.storyboard */; };
 		187CE56622C4C04C0034D5E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187CE56522C4C04C0034D5E5 /* Assets.xcassets */; };
 		187CE56922C4C04C0034D5E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187CE56722C4C04C0034D5E5 /* LaunchScreen.storyboard */; };
+		A7A9337722C866F00019D0AC /* ObservableType+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A9337422C866F00019D0AC /* ObservableType+Codable.swift */; };
+		A7A9337822C866F00019D0AC /* Single+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A9337522C866F00019D0AC /* Single+Codable.swift */; };
+		A7A9337922C866F00019D0AC /* Response+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A9337622C866F00019D0AC /* Response+Codable.swift */; };
+		A7A9337B22C8686D0019D0AC /* ImportFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A9337A22C8686D0019D0AC /* ImportFile.swift */; };
+		A7A9337D22C8696C0019D0AC /* LDError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A9337C22C8696C0019D0AC /* LDError.swift */; };
+		A7A9337F22C86C960019D0AC /* GameApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A9337E22C86C960019D0AC /* GameApi.swift */; };
+		A7A9338122C86CA60019D0AC /* AppEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A9338022C86CA60019D0AC /* AppEnum.swift */; };
+		A7A9338322C86D0F0019D0AC /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A9338222C86D0F0019D0AC /* Game.swift */; };
+		A7A9339922C88F730019D0AC /* Single+Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A9338B22C88F730019D0AC /* Single+Cache.swift */; };
+		A7A9339A22C88F730019D0AC /* OnCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A9338C22C88F730019D0AC /* OnCache.swift */; };
+		A7A9339B22C88F730019D0AC /* Observable+Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A9338D22C88F730019D0AC /* Observable+Cache.swift */; };
+		A7A9339C22C88F730019D0AC /* CachingKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A9338E22C88F730019D0AC /* CachingKey.swift */; };
+		A7A9339D22C88F730019D0AC /* TargetType+Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A9338F22C88F730019D0AC /* TargetType+Cache.swift */; };
+		A7A9339E22C88F730019D0AC /* Cacheable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A9339022C88F730019D0AC /* Cacheable.swift */; };
+		A7A9339F22C88F730019D0AC /* TargetType+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A9339222C88F730019D0AC /* TargetType+Rx.swift */; };
+		A7A933A022C88F730019D0AC /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A9339322C88F730019D0AC /* Network.swift */; };
+		A7A933A122C88F730019D0AC /* Network+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A9339422C88F730019D0AC /* Network+Configuration.swift */; };
+		A7A933A222C88F730019D0AC /* NetworkIndicatorPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A9339522C88F730019D0AC /* NetworkIndicatorPlugin.swift */; };
+		A7A933A322C88F730019D0AC /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = A7A9339622C88F730019D0AC /* .gitkeep */; };
+		A7A933A422C88F730019D0AC /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = A7A9339822C88F730019D0AC /* .gitkeep */; };
 		B4FD900A673E36C5076B3313 /* Pods_RxNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DD63E0B3CB51EC8E12E69A /* Pods_RxNetwork.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +46,28 @@
 		18DD63E0B3CB51EC8E12E69A /* Pods_RxNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DF9330009DD74CFD79092B8 /* Pods-RxNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxNetwork.release.xcconfig"; path = "Target Support Files/Pods-RxNetwork/Pods-RxNetwork.release.xcconfig"; sourceTree = "<group>"; };
 		995A241B80760F34CBC8A093 /* Pods-RxNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxNetwork.debug.xcconfig"; path = "Target Support Files/Pods-RxNetwork/Pods-RxNetwork.debug.xcconfig"; sourceTree = "<group>"; };
+		A7A9337422C866F00019D0AC /* ObservableType+Codable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObservableType+Codable.swift"; sourceTree = "<group>"; };
+		A7A9337522C866F00019D0AC /* Single+Codable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Single+Codable.swift"; sourceTree = "<group>"; };
+		A7A9337622C866F00019D0AC /* Response+Codable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Response+Codable.swift"; sourceTree = "<group>"; };
+		A7A9337A22C8686D0019D0AC /* ImportFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportFile.swift; sourceTree = "<group>"; };
+		A7A9337C22C8696C0019D0AC /* LDError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LDError.swift; sourceTree = "<group>"; };
+		A7A9337E22C86C960019D0AC /* GameApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameApi.swift; sourceTree = "<group>"; };
+		A7A9338022C86CA60019D0AC /* AppEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppEnum.swift; sourceTree = "<group>"; };
+		A7A9338222C86D0F0019D0AC /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		A7A9338422C88D680019D0AC /* RxNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7A9338622C88EAA0019D0AC /* RxNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7A9338B22C88F730019D0AC /* Single+Cache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Single+Cache.swift"; sourceTree = "<group>"; };
+		A7A9338C22C88F730019D0AC /* OnCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnCache.swift; sourceTree = "<group>"; };
+		A7A9338D22C88F730019D0AC /* Observable+Cache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+Cache.swift"; sourceTree = "<group>"; };
+		A7A9338E22C88F730019D0AC /* CachingKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CachingKey.swift; sourceTree = "<group>"; };
+		A7A9338F22C88F730019D0AC /* TargetType+Cache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TargetType+Cache.swift"; sourceTree = "<group>"; };
+		A7A9339022C88F730019D0AC /* Cacheable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cacheable.swift; sourceTree = "<group>"; };
+		A7A9339222C88F730019D0AC /* TargetType+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TargetType+Rx.swift"; sourceTree = "<group>"; };
+		A7A9339322C88F730019D0AC /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		A7A9339422C88F730019D0AC /* Network+Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Network+Configuration.swift"; sourceTree = "<group>"; };
+		A7A9339522C88F730019D0AC /* NetworkIndicatorPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkIndicatorPlugin.swift; sourceTree = "<group>"; };
+		A7A9339622C88F730019D0AC /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		A7A9339822C88F730019D0AC /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +103,12 @@
 		187CE55D22C4C0490034D5E5 /* RxNetwork */ = {
 			isa = PBXGroup;
 			children = (
-				18C0B4C522C4CFE800C89BF8 /* NetworkManager */,
+				A7A9336E22C865B70019D0AC /* Network_Ext */,
 				187CE55E22C4C0490034D5E5 /* AppDelegate.swift */,
 				187CE56022C4C0490034D5E5 /* ViewController.swift */,
+				A7A9337E22C86C960019D0AC /* GameApi.swift */,
+				A7A9338222C86D0F0019D0AC /* Game.swift */,
+				A7A9338022C86CA60019D0AC /* AppEnum.swift */,
 				187CE56222C4C0490034D5E5 /* Main.storyboard */,
 				187CE56522C4C04C0034D5E5 /* Assets.xcassets */,
 				187CE56722C4C04C0034D5E5 /* LaunchScreen.storyboard */,
@@ -72,16 +117,11 @@
 			path = RxNetwork;
 			sourceTree = "<group>";
 		};
-		18C0B4C522C4CFE800C89BF8 /* NetworkManager */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = NetworkManager;
-			sourceTree = "<group>";
-		};
 		33E46B77691FB31CAB07D0CD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A7A9338622C88EAA0019D0AC /* RxNetwork.framework */,
+				A7A9338422C88D680019D0AC /* RxNetwork.framework */,
 				18DD63E0B3CB51EC8E12E69A /* Pods_RxNetwork.framework */,
 			);
 			name = Frameworks;
@@ -96,6 +136,78 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		A7A9336E22C865B70019D0AC /* Network_Ext */ = {
+			isa = PBXGroup;
+			children = (
+				A7A9338822C88F730019D0AC /* RxNetwork */,
+				A7A9337322C866F00019D0AC /* Codable */,
+				A7A9337A22C8686D0019D0AC /* ImportFile.swift */,
+			);
+			path = Network_Ext;
+			sourceTree = "<group>";
+		};
+		A7A9337322C866F00019D0AC /* Codable */ = {
+			isa = PBXGroup;
+			children = (
+				A7A9337422C866F00019D0AC /* ObservableType+Codable.swift */,
+				A7A9337522C866F00019D0AC /* Single+Codable.swift */,
+				A7A9337622C866F00019D0AC /* Response+Codable.swift */,
+				A7A9337C22C8696C0019D0AC /* LDError.swift */,
+			);
+			path = Codable;
+			sourceTree = "<group>";
+		};
+		A7A9338822C88F730019D0AC /* RxNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				A7A9338922C88F730019D0AC /* Classes */,
+				A7A9339722C88F730019D0AC /* Assets */,
+			);
+			path = RxNetwork;
+			sourceTree = "<group>";
+		};
+		A7A9338922C88F730019D0AC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A7A9338A22C88F730019D0AC /* Cacheable */,
+				A7A9339122C88F730019D0AC /* Core */,
+				A7A9339622C88F730019D0AC /* .gitkeep */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A7A9338A22C88F730019D0AC /* Cacheable */ = {
+			isa = PBXGroup;
+			children = (
+				A7A9338B22C88F730019D0AC /* Single+Cache.swift */,
+				A7A9338C22C88F730019D0AC /* OnCache.swift */,
+				A7A9338D22C88F730019D0AC /* Observable+Cache.swift */,
+				A7A9338E22C88F730019D0AC /* CachingKey.swift */,
+				A7A9338F22C88F730019D0AC /* TargetType+Cache.swift */,
+				A7A9339022C88F730019D0AC /* Cacheable.swift */,
+			);
+			path = Cacheable;
+			sourceTree = "<group>";
+		};
+		A7A9339122C88F730019D0AC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A7A9339222C88F730019D0AC /* TargetType+Rx.swift */,
+				A7A9339322C88F730019D0AC /* Network.swift */,
+				A7A9339422C88F730019D0AC /* Network+Configuration.swift */,
+				A7A9339522C88F730019D0AC /* NetworkIndicatorPlugin.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A7A9339722C88F730019D0AC /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A7A9339822C88F730019D0AC /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -107,7 +219,7 @@
 				187CE55722C4C0490034D5E5 /* Sources */,
 				187CE55822C4C0490034D5E5 /* Frameworks */,
 				187CE55922C4C0490034D5E5 /* Resources */,
-				D12568B0209736137CE21203 /* [CP] Embed Pods Frameworks */,
+				51F7080371B88E4AB28C12EC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -158,7 +270,9 @@
 			files = (
 				187CE56922C4C04C0034D5E5 /* LaunchScreen.storyboard in Resources */,
 				187CE56622C4C04C0034D5E5 /* Assets.xcassets in Resources */,
+				A7A933A422C88F730019D0AC /* .gitkeep in Resources */,
 				187CE56422C4C0490034D5E5 /* Main.storyboard in Resources */,
+				A7A933A322C88F730019D0AC /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,7 +301,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D12568B0209736137CE21203 /* [CP] Embed Pods Frameworks */ = {
+		51F7080371B88E4AB28C12EC /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -211,8 +325,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7A9337D22C8696C0019D0AC /* LDError.swift in Sources */,
+				A7A933A222C88F730019D0AC /* NetworkIndicatorPlugin.swift in Sources */,
+				A7A9339D22C88F730019D0AC /* TargetType+Cache.swift in Sources */,
+				A7A9339F22C88F730019D0AC /* TargetType+Rx.swift in Sources */,
+				A7A9339E22C88F730019D0AC /* Cacheable.swift in Sources */,
+				A7A9339B22C88F730019D0AC /* Observable+Cache.swift in Sources */,
+				A7A9338322C86D0F0019D0AC /* Game.swift in Sources */,
+				A7A933A122C88F730019D0AC /* Network+Configuration.swift in Sources */,
 				187CE56122C4C0490034D5E5 /* ViewController.swift in Sources */,
+				A7A9337822C866F00019D0AC /* Single+Codable.swift in Sources */,
+				A7A9339922C88F730019D0AC /* Single+Cache.swift in Sources */,
 				187CE55F22C4C0490034D5E5 /* AppDelegate.swift in Sources */,
+				A7A9338122C86CA60019D0AC /* AppEnum.swift in Sources */,
+				A7A9337F22C86C960019D0AC /* GameApi.swift in Sources */,
+				A7A9337722C866F00019D0AC /* ObservableType+Codable.swift in Sources */,
+				A7A9339A22C88F730019D0AC /* OnCache.swift in Sources */,
+				A7A933A022C88F730019D0AC /* Network.swift in Sources */,
+				A7A9339C22C88F730019D0AC /* CachingKey.swift in Sources */,
+				A7A9337B22C8686D0019D0AC /* ImportFile.swift in Sources */,
+				A7A9337922C866F00019D0AC /* Response+Codable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +421,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -344,7 +476,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -360,13 +492,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3PQ9EHTEHL;
+				DEVELOPMENT_TEAM = 6GX73NTZ4L;
 				INFOPLIST_FILE = RxNetwork/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = www.xfsrn.com.cn.net.RxNetwork;
+				PRODUCT_BUNDLE_IDENTIFIER = www.xfsrn.com.cn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -379,13 +511,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3PQ9EHTEHL;
+				DEVELOPMENT_TEAM = 6GX73NTZ4L;
 				INFOPLIST_FILE = RxNetwork/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = www.xfsrn.com.cn.net.RxNetwork;
+				PRODUCT_BUNDLE_IDENTIFIER = www.xfsrn.com.cn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
